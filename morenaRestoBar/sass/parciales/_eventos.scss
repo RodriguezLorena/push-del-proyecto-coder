@@ -1,0 +1,54 @@
+@import"./variables";
+@import "./main";
+@import "./media";
+
+
+.evento {
+  display: inline-block;
+  padding: $rem;
+
+  @include movil {
+    padding: 0%;
+  }
+
+  &__img {
+    width: 45%;
+    object-fit: cover;
+    box-shadow: $shadow;
+
+    @include movil {
+      border-radius: 10%;
+      width: 100%;
+
+    }
+
+    @include tablet {
+      width: 100%;
+      box-shadow: none
+    }
+  }
+
+  &__img--item {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    justify-content: center;
+
+
+    @include movil {
+      padding: $rem;
+      justify-content: center;
+      display: inline;
+
+    }
+
+    @include tablet {
+      padding: $rem;
+      justify-content: center;
+      display: inline;
+
+    }
+
+  }
+
+}

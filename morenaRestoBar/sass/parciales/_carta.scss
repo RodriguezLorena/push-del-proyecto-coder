@@ -1,0 +1,11 @@
+@import"./variables";
+@import "./main";
+@import "./media";
+
+/*los estilos de la seccion carta los traigo con import y otros los manipule directamente desde
+bootstrap*/
+
+.carta {
+    box-shadow: $shadow;
+    /*este estilo lo ocupo para darle luz a las imagenes*/
+}

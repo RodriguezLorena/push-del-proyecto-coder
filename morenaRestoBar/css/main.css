@@ -1,0 +1,776 @@
+@charset "UTF-8";
+
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+.main__padre {
+  background-color: #1e1e22;
+}
+
+.main__padre .main__redes {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.main__padre h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre h2 {
+    padding: 1rem;
+  }
+}
+
+.main__padre p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre p {
+    font-size: 1rem;
+  }
+}
+
+.main__padre .main__imagen {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre .main__imagen {
+    height: auto;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+.main__padre {
+  background-color: #1e1e22;
+}
+
+.main__padre .main__redes {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.main__padre h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre h2 {
+    padding: 1rem;
+  }
+}
+
+.main__padre p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre p {
+    font-size: 1rem;
+  }
+}
+
+.main__padre .main__imagen {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre .main__imagen {
+    height: auto;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .nosotros__texto {
+    font-size: 1rem;
+  }
+}
+
+.nosotros__img {
+  background-image: url(../imgPrincipal/nosotrosPortada.jpg);
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.presentacion {
+  display: inline-block;
+  padding: 0 5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .presentacion {
+    padding: 0 1rem;
+  }
+}
+
+.presentacion__item {
+  background-color: rgba(218, 210, 210, 0.253);
+  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+}
+
+@media screen and (max-width: 320px) {
+  .presentacion__item {
+    background-color: rgba(218, 210, 210, 0);
+  }
+}
+
+.presentacion__img {
+  width: 70%;
+  height: auto;
+}
+
+@media screen and (max-width: 320px) {
+  .presentacion__img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presentacion__img {
+    width: auto;
+  }
+}
+
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+.main__padre {
+  background-color: #1e1e22;
+}
+
+.main__padre .main__redes {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.main__padre h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre h2 {
+    padding: 1rem;
+  }
+}
+
+.main__padre p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre p {
+    font-size: 1rem;
+  }
+}
+
+.main__padre .main__imagen {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre .main__imagen {
+    height: auto;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/*los estilos de la seccion carta los traigo con import y otros los manipule directamente desde
+bootstrap*/
+.carta {
+  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+  /*este estilo lo ocupo para darle luz a las imagenes*/
+}
+
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+.main__padre {
+  background-color: #1e1e22;
+}
+
+.main__padre .main__redes {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.main__padre h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre h2 {
+    padding: 1rem;
+  }
+}
+
+.main__padre p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre p {
+    font-size: 1rem;
+  }
+}
+
+.main__padre .main__imagen {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre .main__imagen {
+    height: auto;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.evento {
+  display: inline-block;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .evento {
+    padding: 0%;
+  }
+}
+
+.evento__img {
+  width: 45%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+}
+
+@media screen and (max-width: 320px) {
+  .evento__img {
+    border-radius: 10%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .evento__img {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.evento__img--item {
+  display: inline-block;
+  text-align: center;
+  width: 45%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 320px) {
+  .evento__img--item {
+    padding: 1rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .evento__img--item {
+    padding: 1rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: inline;
+  }
+}
+
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+.main__padre {
+  background-color: #1e1e22;
+}
+
+.main__padre .main__redes {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.main__padre h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre h2 {
+    padding: 1rem;
+  }
+}
+
+.main__padre p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre p {
+    font-size: 1rem;
+  }
+}
+
+.main__padre .main__imagen {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre .main__imagen {
+    height: auto;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contacto {
+  display: inline-block;
+  background-image: url(../imgPrincipal/fondoContacto2.jpg);
+  padding: 0 6rem;
+}
+
+@media screen and (max-width: 320px) {
+  .contacto {
+    padding: 0;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacto {
+    padding: 0;
+    margin: 0 1rem;
+  }
+}
+
+.contacto__formulario {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: rgba(170, 165, 165, 0.144);
+}
+
+.contacto__item {
+  background-color: rgba(87, 85, 85, 0.479);
+  margin-bottom: 1rem;
+  text-align: center;
+  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+}
+
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+.footer__padre {
+  display: inline;
+  width: 100%;
+}
+
+.footer__padre .footer__icono {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1e1e22;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__padre .footer__icono {
+    font-size: 1rem;
+  }
+}
+
+.footer__padre .footer__img {
+  width: 32px;
+  height: 32px;
+  margin: 0.3rem;
+}
+
+.footer__padre a {
+  color: #1e1e22;
+}
+
+.footer__padre .footer__address {
+  color: white;
+  font-size: 0.8rem;
+  text-align: end;
+  padding-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__padre .footer__address {
+    text-align: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.slide-in-elliptic-top-fwd {
+  -webkit-animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
+.sectionNav h1 {
+  color: white;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 320px) {
+  .sectionNav h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+}
+
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+.tracking-in-expand-fwd {
+  -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: .6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: .6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.vibrate-1 {
+  -webkit-animation: vibrate-1 1s linear infinite both;
+  animation: vibrate-1 1s linear infinite both;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

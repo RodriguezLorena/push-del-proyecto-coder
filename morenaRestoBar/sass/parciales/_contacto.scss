@@ -1,0 +1,41 @@
+@import "./variables";
+@import "./main";
+@import "./media";
+
+
+.contacto {
+    display: inline-block;
+    background-image: url(../imgPrincipal/fondoContacto2.jpg);
+    padding: 0 6rem;
+
+    @include movil {
+        padding: 0;
+        margin: 0 $rem;
+
+    }
+
+    @include tablet {
+        padding: 0;
+        margin: 0 $rem;
+
+    }
+
+    &__formulario {
+        justify-content: center;
+        text-align: center;
+        padding: $rem;
+        margin-bottom: $rem;
+        color: $color;
+        background-color: rgba(170, 165, 165, 0.144);
+
+    }
+
+    &__item {
+        background-color: rgba(87, 85, 85, 0.479);
+        margin-bottom: $rem;
+        text-align: center;
+        box-shadow: $shadow;
+    }
+
+
+}

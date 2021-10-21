@@ -1,0 +1,41 @@
+@import "./variables";
+
+.footer__padre {
+    display: inline;
+    width: 100%;
+
+
+    .footer__icono {
+        text-align: center;
+        font-size: $rem;
+        color: $color;
+        align-items: center;
+        background-color: $fondo;
+
+        @include movil {
+            font-size: $rem;
+        }
+    }
+
+    .footer__img {
+        width: 32px;
+        height: 32px;
+        margin: 0.3rem;
+    }
+
+    a {
+        color: $fondo;
+    }
+
+    .footer__address {
+        color: $color;
+        font-size: 0.8rem;
+        text-align: end;
+        padding-bottom: 0.5rem;
+        margin-right: 0.5rem;
+
+        @include tablet {
+            text-align: center;
+        }
+    }
+}
